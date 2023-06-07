@@ -127,12 +127,17 @@ img {
   background-color: #C44536;
   color: #EDDDD4;
   border:none;
+  font-size: 20px;
 }
 
 .send {
   background-color: #C44536;
   color: #EDDDD4;
   border:none;
+}
+
+.button {
+  text-align: center;
 }
 
 @media (max-width: 768px) {

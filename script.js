@@ -1,6 +1,4 @@
-function showAlert() {
-    alert("Hola, esta es una alerta desde JavaScript!")
-}
+function showAlert() {alert("Hola, esta es una alerta desde JavaScript!");}
 
 const form = document.getElementById('myForm');
 

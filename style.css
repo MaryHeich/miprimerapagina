@@ -119,6 +119,10 @@ img {
   height: 150px;
 }
 
+.greeting {
+  text-align: center;
+}
+
 .clic {
   background-color: #C44536;
   color: #EDDDD4;

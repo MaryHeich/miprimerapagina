@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Diseño CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </header>
+        <main class="container">
+            <h1>Acerca de</h1>
+            <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
+            <div class="img-container">
+                <img src="img/iStock_000038668788_Medium-1024x695.jpg" alt="Trabajo en equipo" />
+                <img src="img/la-cooperacion.jpg" alt="Cooperación" />
+                <img src="img/Qué-es-la-comunicación.jpg" alt="Comunicación efectiva" />
+            </div>
+        </main>
+        <footer>
+            <p>Pongamos información sobre el desarrollador o la compañia</p>
+            <button class="clic" onclick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
